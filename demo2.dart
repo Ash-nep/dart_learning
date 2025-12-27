@@ -1,16 +1,18 @@
-class Kanxi {
-  Kanxi({this.firstName, this.isHusband = true, this.husbandName});
+// we are making a design or map or blueprint
+class House {
+  //optional parameter
+  House({this.brickName, this.cementName});
 
-  String? firstName;
-  bool? isHusband;
-  String? husbandName;
+  String? brickName;
+  String? cementName;
 
   void displayDetails() {
-    print('$firstName has Husband: $isHusband\n Her husband is: $husbandName');
+    print(brickName);
+    print(cementName);
   }
 }
 
 void main() {
-  Kanxi maiya = Kanxi(firstName: 'Archana', husbandName: 'Binod', isHusband: false);
-  maiya.displayDetails();
+  House h1 = House(cementName: 'jagadamba', brickName: 'khanal itta');
+  h1.displayDetails();
 }
