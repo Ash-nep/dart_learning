@@ -1,15 +1,16 @@
-//tomake a function that check whether it is greater or not
+//make a function that check whether greater number amount two
+
 void main() {
-  int? num = checkWhichOneGreater(3, 5);
-  print('The greatest number is $num');
+  int? num = checkGreaterNumber(5, 6);
+  print('Greater number is $num');
 }
 
-int? checkWhichOneGreater(int num1, int num2) {
-  int? greatestNumber;
+int? checkGreaterNumber(int num1, int num2) {
+  int? greaterNumber;
   if (num1 > num2) {
-    greatestNumber = num1;
+    greaterNumber = num1;
   } else if (num2 > num1) {
-    greatestNumber = num2;
+    greaterNumber = num2;
   }
-  return greatestNumber;
+  return greaterNumber;
 }
