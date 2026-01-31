@@ -2,6 +2,8 @@ void main() {
   int num1 = 10;
   int num2 = 5;
   int num3 = 15;
+
+  checkGreaterNumber(num1, num2, num3);
   int? greatestNumber = checkGreaterNumber(num1, num2, num3);
   print('The greatest Number is $greatestNumber.');
 }

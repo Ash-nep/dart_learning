@@ -1,1 +1,2 @@
 1. make a function to check greater number among three numbers.
+2. make a function to calculate total and percentage of 5 subjects, hint: full mark: 100 each.
