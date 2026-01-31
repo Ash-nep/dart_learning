@@ -1,0 +1,1 @@
+1. make a function to check greater number among three numbers.
