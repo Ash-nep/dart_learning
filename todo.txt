@@ -1,2 +1,4 @@
 1. make a function to check greater number among three numbers.
 2. make a function to calculate total and percentage of 5 subjects, hint: full mark: 100 each.
+3. make use of functions: input marks of 5 subjects, find total, percentage and division.
+4. pass mark of each subject is 40, if fail program should print fail.
