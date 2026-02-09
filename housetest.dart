@@ -1,4 +1,4 @@
-import 'demo5.dart';
+import 'class_house.dart';
 
 void main() {
   House h1 = House('khanal itta', 'jagadamba');
