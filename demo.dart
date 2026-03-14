@@ -1,6 +1,6 @@
 void main() {
   print("Hello World");
-  print("Hello Husband");
+  print("Nothing to say");
   checkEitherICanVoteOrNot();
   String visitNepal = displayNepal();
   print(visitNepal);
