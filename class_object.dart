@@ -27,7 +27,7 @@ class Shape {
 class Circle extends Shape {
   //properties
   double radius;
-  static const double pi = 2.14;
+  static const double pi = 3.14;
 
   //constructors
   Circle(super.color, this.radius);
