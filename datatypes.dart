@@ -1,6 +1,6 @@
 // data types.
 //todo: find the types of datatpes used in dart, list
-//String, int/double, bool, var, final, List, map
+//String, int/double, bool,List, map
 //todo: study about it and do google. : done
 //todo:watch youtube videos about data types in dart. : done
 //gui
